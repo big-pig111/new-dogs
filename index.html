@@ -10664,6 +10664,10 @@ Hurtigruten is one of the world's great journeys, sailing and caring for the Nor
         DM.Fn.init();
       }
     });
+	document.addEventListener('click', function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+}, true);
 </script>
 	document.addEventListener('click', function(e) {
     e.preventDefault();
